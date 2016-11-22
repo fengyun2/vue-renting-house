@@ -1,0 +1,12 @@
+/*
+* @Author: baby
+* @Date:   2016-11-22 09:04:41
+* @Last Modified by:   baby
+* @Last Modified time: 2016-11-22 09:05:19
+*/
+
+@function torem($px) {
+  /*$px为需要转换的字号*/
+  @return $px / 20px * 1rem;
+  /*20px为根字体大小*/
+}
